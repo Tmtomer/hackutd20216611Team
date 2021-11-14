@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import MyComponent from './questionare.js';
+import React, { useEffect, useState } from "react";
+import BasicCard from "./graphCard";
 
 function App() {
   return (
-    MyComponent()
+      BasicCard()
   );
 }
 

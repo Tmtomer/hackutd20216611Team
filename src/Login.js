@@ -17,7 +17,7 @@ function Login(){
             <div style={{paddingTop:"0vh"}}>
             <Paper elevation ={10} style ={paperStyle} >
                 <Grid align = 'center'>
-                <img className="button-style" src="http://localhost:3000/Logo.png" style={{width:"200px", height:"100px"}}></img>
+                <img className="button-style" src="http://localhost:3000/Logo.png" style={{width:"300px", height:"140px"}}></img>
                 <Avatar style={avatarStyle}><LockIcon/></Avatar>
                 <h2>Sign in</h2>
                 </Grid>

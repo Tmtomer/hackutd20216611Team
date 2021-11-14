@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import MyComponent from './questionare.js';
+import Login from './Login.js';
 
 function App() {
   return (
-    MyComponent()
+    Login()
   );
 }
 

@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import LockIcon from '@mui/icons-material/Lock';
 import { TextField } from "@material-ui/core";
+import Button from '@mui/material/Button';
 import './App.css';
 
 function Login(){
@@ -19,7 +20,7 @@ function Login(){
                 </Grid>
                 <TextField label='Username' placeholder='Enter Username' fullWidth required/>
                 <TextField label='Password' placeholder='Enter Password' type='password' fullWidth required/>
-                <Button type= 'submit' color='primary' variant="contained" fullWidthSign>Sign in</Button>
+                <Button type= 'submit' color='primary' variant="contained" fullWidth>Sign in</Button>
             </Paper>
         </Grid>
         

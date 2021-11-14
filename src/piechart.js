@@ -5,17 +5,15 @@ import { CardContent } from '@mui/material';
 import { Grid } from '@mui/material';
 
 const pie_1_data = [
-    { title: 'One', value: 10, color: '#ef3c2d' },
-    { title: 'Two', value: 15, color: '#CB1B16' },
-    { title: 'Three', value: 20, color: '#1368AA' },
-    { title: 'Three', value: 20, color: '#4091C9' },
+    { title: 'Savings', value: 44, color: '#ef3c2d' },
+    { title: 'Stocks', value: 56, color: '#4091C9' },
 ];
 
 const pie_2_data = [
-    { title: 'One', value: 10, color: '#1368aa' },
-    { title: 'Two', value: 15, color: '#9dcee2' },
-    { title: 'Three', value: 20, color: '#f29479' },
-    { title: 'Four', value: 20, color: '#ef3c2d' },
+    { title: 'Savings', value: 22, color: '#1368aa' },
+    { title: 'Stocks', value: 30, color: '#9dcee2' },
+    { title: 'ETFs', value: 28, color: '#f29479' },
+    { title: 'Bonds', value: 20, color: '#ef3c2d' },
 ];
 
 const styles = muiBaseTheme => ({
@@ -68,7 +66,7 @@ class PieCharts extends React.Component {
                 justify="flex-start"
                 alignItems="flex-start"
             >
-                <Card style={cardStyle}>
+                <Card style={cardStyle} sx={{boxShadow: 6, borderRadius: 4}}>
                     <CardContent>
                         <div className="chart">
                         <h1 className="chartText">Current Allocation</h1>
@@ -102,7 +100,7 @@ class PieCharts extends React.Component {
                         </div>
                     </CardContent>
                 </Card>
-                <Card style={cardStyle}>
+                <Card style={cardStyle} sx={{boxShadow: 6, borderRadius: 4, marginLeft: 7}}>
                     <CardContent>
                         <div className="chart">
                         <h1 className="chartText">Future Allocation</h1>

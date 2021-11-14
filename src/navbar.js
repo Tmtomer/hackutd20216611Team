@@ -7,10 +7,14 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 
-function navbar() {
+class navbar extends React.Component {
+  render(){
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
+      <Toolbar> 
+        <img src="appbar-logo.png" style={{ width:"175px", height:"85px"}}alt="logo"/>
+      </Toolbar>
         <Toolbar>
           <IconButton
             size="large"
@@ -29,6 +33,7 @@ function navbar() {
       </AppBar>
     </Box>
   );
+  }
 }
 
 export default navbar;

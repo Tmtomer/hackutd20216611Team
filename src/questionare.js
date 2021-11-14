@@ -2,6 +2,7 @@
 import { Button } from '@mui/material';
 import { Widget } from '@typeform/embed-react';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import * as React from 'react';
 
 const theme2 = createTheme({
     palette: {

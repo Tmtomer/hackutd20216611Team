@@ -23,7 +23,9 @@ function Login(){
                 </Grid>
                 <TextField label='Username' placeholder='Enter Username' fullWidth required/>
                 <TextField label='Password' placeholder='Enter Password' type='password' fullWidth required/>
+                <div>
                 <Button type= 'submit' color='primary' variant="contained" fullWidth>Sign in</Button>
+                </div>
             </Paper>
             </div>
         </Grid>

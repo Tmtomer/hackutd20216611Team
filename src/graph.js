@@ -7,15 +7,15 @@ class Graph extends Component {
 
     this.state = {  
         series: [{
-          name: 'Current Allocation',
+          name: 'Future Allocation',
           data: [31, 40, 28, 51, 42, 109, 100]
         }, {
-          name: 'Future Allocation',
+          name: 'Current Allocation',
           data: [11, 32, 45, 32, 34, 52, 41]
         }],
         options: {
           
-          colors: ['#bb3e03', '#94d2bd', '#9C27B0'],
+          colors: ['#94d2bd', '#bb3e03', '#9C27B0'],
           chart: {
             height: 350,
             type: 'area',
@@ -58,7 +58,7 @@ class Graph extends Component {
           },
           yaxis:{
             title: {
-                text: 'Total Net Savings (USD)',
+                text: 'Total Net Investments (USD)',
                 style: {
                     fontSize:  '14px',
                     fontWeight:  'bold',
